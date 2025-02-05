@@ -44,6 +44,17 @@
 }
 
 @font-face {
+  font-family:"lato-bold Fallback";
+  font-style:normal;
+  font-weight:700;
+  src:local("Arial Bold");
+  ascent-override:120.00%;
+  descent-override:32.19%;
+  line-gap-override:0.00%;
+  size-adjust:93.04%;
+}
+
+@font-face {
   font-family:"lato-regular Fallback";
   font-style:normal;
   font-weight:400;
@@ -66,14 +77,14 @@
 }
 
 @font-face {
-  font-family:"lato-bold Fallback";
+  font-family:"Roboto Fallback";
   font-style:normal;
-  font-weight:700;
-  src:local("Arial Bold");
-  ascent-override:120.00%;
-  descent-override:32.19%;
+  font-weight:500;
+  src:local("Arial");
+  ascent-override:91.62%;
+  descent-override:24.11%;
   line-gap-override:0.00%;
-  size-adjust:93.04%;
+  size-adjust:101.26%;
 }
 
 @font-face {
@@ -85,17 +96,6 @@
   descent-override:24.34%;
   line-gap-override:0.00%;
   size-adjust:100.30%;
-}
-
-@font-face {
-  font-family:"Roboto Fallback";
-  font-style:normal;
-  font-weight:500;
-  src:local("Arial");
-  ascent-override:91.62%;
-  descent-override:24.11%;
-  line-gap-override:0.00%;
-  size-adjust:101.26%;
 }
 
 @media (width>=900px) {
